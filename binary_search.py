@@ -3,7 +3,7 @@
 # for a sorted list, find the middle index by dividing the length of the list to half. Check if the value of the middle index is the item we search for. If the value is greater than the item, we do search on the left half of the list, otherwise, we do search on the right half of the list.
 
 # best case: mid is the one O(1)
-# worse case start ot the end O(logn)
+# worse case start or the end O(logn)
 # average case O(logn)???
 
 def binary_search(arr, item):

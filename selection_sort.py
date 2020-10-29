@@ -7,7 +7,8 @@
     # insertion: O(1)
     # deletion: O(1)
 
-# find smallest/largest item by iterating through the arr and move it to a new arr in order
+# find smallest/largest item by iterating through the arr and insert it to a new arr in order
+# Time: O(n^2)
 
 def findSmallest(arr):
     smallest = arr[0]
